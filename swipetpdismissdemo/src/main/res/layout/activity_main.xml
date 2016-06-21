@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hzjytech.hades.swipetpdismissdemo.MainActivity">
+
+    <com.hzjytech.hades.swipetpdismissdemo.widget.SuperSwipeRefreshLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.hzjytech.hades.swipetpdismissdemo.widget.TouchableRecyclerView
+            android:id="@+id/contact_member"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"></com.hzjytech.hades.swipetpdismissdemo.widget.TouchableRecyclerView>
+    </com.hzjytech.hades.swipetpdismissdemo.widget.SuperSwipeRefreshLayout>
+
+</RelativeLayout>
